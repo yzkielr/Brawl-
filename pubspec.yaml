@@ -1,0 +1,30 @@
+name: brawl
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0 # Pastikan Flutter SDK kamu sudah versi terbaru di VS Code
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # --- LIBRARY UTAMA (PINDAHKAN KE SINI) ---
+  uuid: ^4.3.3
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Versi 6.0.0 belum stabil, gunakan 3.0.0 untuk VS Code
+
+flutter:
+  uses-material-design: true
+
+  # Jika nanti kamu punya aset gambar, tambahkan di bawah sini:
+  # assets:
+  #   - assets/images/
